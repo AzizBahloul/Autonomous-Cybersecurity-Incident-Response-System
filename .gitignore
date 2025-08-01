@@ -1,0 +1,64 @@
+# Compiled source files
+*.class
+*.o
+*.so
+*.pyc
+*.pyo
+*.pyd
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# Dependency directories
+node_modules/
+venv/
+.env/
+
+# Build directories
+build/
+dist/
+*.egg-info/
+
+# Rust specific
+/target/
+**/*.rs.bk
+
+# Go specific
+*.exe
+*.test
+*.out
+
+# Python specific
+__pycache__/
+*.pkl
+
+# Terraform specific
+*.tfstate
+*.tfstate.backup
+.terraform/
+
+# Kubernetes specific
+*.kubeconfig
+
+# Miscellaneous
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+*.bak
+*.tmp
+*.temp
+*.orig
+*.rej
+*.patch
+
+# Ignore example files
+example.pcap
+
+# Ignore test outputs
+tests/**/*.log
+tests/**/*.out
